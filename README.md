@@ -7,6 +7,7 @@
 - [175b_samples.jsonl](175b_samples.jsonl) - Unconditional, unfiltered 2048 token samples from GPT-3 with p=.85, t=1.&#12288;
 **CONTENT WARNING:** GPT-3 was trained on arbitrary data from the web, so may contain offensive content and language.
 - [data](data) - Synthetic datasets for word scramble and arithmetic tasks described in the paper.
+- [dataset_statistics](dataset_statistics) - Statistics for all languages included in the training dataset mix.
 - [overlap_frequency.md](overlap_frequency.md) - Samples of 13-gram overlaps between our training data and benchmarks, selected by frequency in the training set.
 
 
