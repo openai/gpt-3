@@ -9,7 +9,7 @@
 - [data](data) - Synthetic datasets for word scramble and arithmetic tasks described in the paper.
 - [dataset_statistics](dataset_statistics) - Statistics for all languages included in the training dataset mix.
 - [overlap_frequency.md](overlap_frequency.md) - Samples of 13-gram overlaps between our training data and benchmarks, selected by frequency in the training set.
-
+- [model-card.md](model-card.md) - GPT-3 Model Card.
 
 ## How to cite
 ```
