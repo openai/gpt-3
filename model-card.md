@@ -1,6 +1,6 @@
 # GPT-3 Model Card
 
-Last updated: August 2020
+Last updated: September 2020
 
 Inspired by [Model Cards for Model Reporting (Mitchell et al.)](https://arxiv.org/abs/1810.03993), we’re providing some accompanying information about the 175 billion parameter GPT-3 model.
 
@@ -9,7 +9,7 @@ Inspired by [Model Cards for Model Reporting (Mitchell et al.)](https://arxiv.or
 GPT-3 is a Generative Pretrained Transformer or “GPT”-style autoregressive language model with 175 billion parameters. Researchers at OpenAI developed the model to help us understand how increasing the parameter count of language models can improve task-agnostic, few-shot performance. Once built, we found GPT-3 to be generally useful and thus created an API to safely offer its capabilities to the world, so others could explore them for commercial and scientific purposes.
 
 ### Model date
-May 2020
+September 2020
 
 ### Model type
 Language model
@@ -64,7 +64,7 @@ Interpretability & predictability: the capacity to interpret or predict how GPT-
 
 High variance on novel inputs: GPT-3 is not necessarily well-calibrated in its predictions on novel inputs. This can be observed in the much higher variance in its performance as compared to that of humans on standard benchmarks. 
 
-Creation date of training corpora: GPT-3 was trained on a dataset created in November 2019, so has not been trained on any data more recent than that. 
+Creation date of training corpora: The May 2020 version of GPT-3 was trained on a dataset created in November 2019, so has not been trained on any data more recent than that. The September 2020 version of the model was retrained to reflect data up to August 2020.
 
 Biases: GPT-3, like all large language models trained on internet corpora, will generate stereotyped or prejudiced content. The model has the propensity to retain and magnify biases it inherited from any part of its training, from the datasets we selected to the training techniques we chose. This is concerning, since model bias could harm people in the relevant groups in different ways by entrenching existing stereotypes and producing demeaning portrayals amongst other potential harms.<sup>[[5]](#fn5)</sup> This issue is of special concern from a societal perspective, and is discussed along with other issues in the [paper](https://arxiv.org/abs/2005.14165) section on Broader Impacts.
 
